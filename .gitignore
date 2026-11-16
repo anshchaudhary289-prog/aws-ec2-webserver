@@ -1,0 +1,13 @@
+# SSH keys must NEVER be committed
+*.pem
+*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local env / logs
+.env
+*.log
